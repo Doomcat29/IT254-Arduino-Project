@@ -101,18 +101,19 @@ The `labels.txt` file determines which detected objects are eligible for pricing
 ---
 
 ## Instructions
-1. Set up arduino 
+1. Download zip from packages and extract it
+2. Set up arduino 
    - Put passive buzzer on breadboard, both pins should be in row E
    - Put jumper wires on either sides aligned with the columns that the buzzer pins are in
    - Plug one wire into ground and the other wire into digital pin 8 (it doesnt matter which sides of the buzzer pins you plug it into) 
-2. Plug arduino into computer's USB and upload the provided arduino code on to the device using arduinos IDE make sure to close it after upload
-3. Open folder in a Python IDE and select yolo.py
-4. Install packages in terminal (pip install ultralytics opencv-python pyserial)
-5. Run yolo.py
-6. Place items in the camera's field of view.
-7. The system identifies items and updates the total.
-8. When the price limit is exceeded, the buzzer activates.
-9. Removing items lowers the total and resets the alert trigger.
+3. Plug arduino into computer's USB and upload the provided arduino code on to the device using arduinos IDE make sure to close it after upload
+4. Open folder in a Python IDE and select yolo.py
+5. Install packages in terminal (pip install ultralytics opencv-python pyserial)
+6. Run yolo.py
+7. Place items in the camera's field of view.
+8. The system identifies items and updates the total.
+9. When the price limit is exceeded, the buzzer activates.
+10. Removing items lowers the total and resets the alert trigger.
 
 ---
 
