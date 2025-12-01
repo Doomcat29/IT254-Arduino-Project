@@ -5,7 +5,7 @@
 
 ## Overview
 
-The AI Shopping Cart is a promotional supermarket prototype that allows customers to add items to their basket as long as the total remains under a fixed spending limit. A camera combined with AI-based object detection identifies items such as fruits, vegetables, and prepared foods as they appear in the cart. The system calculates a running total based on predefined prices and provides an audible alert when the limit is exceeded.
+The AI Shopping Cart is a prototype that allows customers to add items to their basket as long as the total remains under a fixed spending limit. A camera combined with AI-based object detection identifies items such as fruits, vegetables, and prepared foods as they appear in the cart. The system calculates a running total based on predefined prices and provides an audible alert when the limit is exceeded.
 
 This project demonstrates the practical integration of computer vision, real-time data processing, and physical hardware feedback in a retail environment.
 
