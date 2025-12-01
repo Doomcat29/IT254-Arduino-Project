@@ -89,7 +89,7 @@ The `labels.txt` file determines which detected objects are eligible for pricing
 
 ## File Structure
 
-* main.py
+* yolo.py
   Core Python script handling detection, pricing, and Arduino communication
 * labels.txt
   List of object labels that should be recognized and priced
@@ -101,7 +101,7 @@ The `labels.txt` file determines which detected objects are eligible for pricing
 ---
 
 ## Instructions
-1. Download zip from packages and extract it
+1. Download zip from Github and extract it
 2. Set up arduino 
    - Put passive buzzer on breadboard, both pins should be in row E
    - Put jumper wires on either sides aligned with the columns that the buzzer pins are in
