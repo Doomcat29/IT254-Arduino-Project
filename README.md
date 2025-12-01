@@ -39,10 +39,10 @@ The goal is not perfect accuracy, but a responsive and interactive proof-of-conc
 - 1 Passive Buzzer
 - 2-3 Male to male jumper wires
 - USB cable connection between Arduino and computer
-- Python 3.11
 
 ### Software & Libraries
 Installed manually (no requirements file included):
+- Python 3.11
 - ultralytics  
 - opencv-python  
 - pyserial  
