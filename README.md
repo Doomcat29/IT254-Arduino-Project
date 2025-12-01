@@ -109,7 +109,7 @@ The `labels.txt` file determines which detected objects are eligible for pricing
 3. Plug arduino into computer's USB and upload the provided arduino code on to the device using arduinos IDE make sure to close it after upload
 4. Open folder in a Python IDE and select yolo.py
 5. Install packages in terminal (pip install ultralytics opencv-python pyserial)
-6. Run yolo.py
+6. Change port to needed port and run yolo.py
 7. Place items in the camera's field of view.
 8. The system identifies items and updates the total.
 9. When the price limit is exceeded, the buzzer activates.
